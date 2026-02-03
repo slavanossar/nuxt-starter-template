@@ -1,0 +1,23 @@
+.layout-cols {
+  @apply grid-cols-4 md:grid-cols-12;
+}
+
+.layout-col-spacing {
+  @apply gap-x-5;
+}
+
+.layout-row-spacing {
+  @apply gap-y-5;
+}
+
+.layout-px {
+  @apply px-5;
+}
+
+.layout-py {
+  @apply py-5;
+}
+
+.layout-px-collapse {
+  @apply -mx-5;
+}

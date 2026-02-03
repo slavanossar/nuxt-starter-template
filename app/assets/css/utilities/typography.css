@@ -1,0 +1,17 @@
+@utility type-heading-1 {
+  font-size: --spacing(15);
+  line-height: --spacing(15);
+  letter-spacing: -0.01em;
+
+  @variant md {
+    font-size: --spacing(10);
+    line-height: --spacing(10);
+    letter-spacing: -0.02em;
+  }
+
+  @variant lg {
+    font-size: --spacing(15);
+    line-height: --spacing(15);
+    letter-spacing: -0.03em;
+  }
+}

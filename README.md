@@ -1,11 +1,10 @@
-# nuxt3-template
+# nuxt-template
 
-A [Nuxt 3](https://nuxt.com/docs/guide/concepts/auto-imports) + TypeScript starter template.
+A [Nuxt 4](https://nuxt.com/docs/4.x/getting-started/installation) + TypeScript starter template.
 
-- [Vue Macros](https://vue-macros.sxzz.moe/guide/getting-started.html)
-- [VueUse](https://vueuse.org/guide/)
-- [Tailwind CSS](https://tailwindcss.com/docs/installation)
 - [Pinia](https://pinia.vuejs.org/introduction.html)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [VueUse](https://vueuse.org/guide/)
 
 ## Usage
 
