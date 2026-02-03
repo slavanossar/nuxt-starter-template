@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-2xl: 90rem;
+  --breakpoint-3xl: 96rem;
+
+  --color-transparent: rgba(0, 0, 0, 0);
+  --color-current: currentColor;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --font-sans:
+    'My Sans Font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-serif:
+    'My Serif Font', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --font-mono:
+    'My Monon Font', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}
+
+/** Base */
+@import './fonts.css' layer(base);
+
+/** Components */
+@import './components/layout.css' layer(components);
+
+/** Utilities */
+@import './utilities/flex-center.css';
+@import './utilities/typography.css';
+
+svg,
+svg * {
+  @apply focus:outline-none;
+}
