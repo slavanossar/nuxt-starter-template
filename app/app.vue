@@ -55,10 +55,6 @@ useHead({
         'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
     },
     { name: 'theme-color', content: themeColour },
-    {
-      name: 'facebook-domain-verification',
-      content: 'f28iui2rltx9blb0oochigb6mojhif',
-    },
   ],
   // Use https://realfavicongenerator.net/ to generate favicon.
   link: [
